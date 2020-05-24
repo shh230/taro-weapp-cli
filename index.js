@@ -1,6 +1,7 @@
+#! /usr/bin/env node
 /**
- * @author shh
- * @create date 2019-12-11
+ * @author GaoYuJian
+ * @create date 2019-01-10
  * @desc
  */
 
@@ -38,3 +39,8 @@ if (weappid) {
         fs.writeFileSync(weappPath, formatedData, 'utf8')
     }
 }
+
+
+
+
+

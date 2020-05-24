@@ -1,7 +1,7 @@
 {
   "name": "@hlang/taro-weapp-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "read configure file set weapp project.config.json",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,21 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://shh230@github.com/shh230/taro-weapp-cli.git"
+    "url": "git@github.com:shh230/taro-weapp-cli.git"
   },
   "keywords": [
     "taro"
   ],
   "author": "shh",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shh230/taro-weapp-cli/issues"
-  },
   "dependencies": {
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
     "prettier": "1.15.3"
-  },
-  "homepage": "https://github.com/shh230/taro-weapp-cli#readme"
+  }
 }
